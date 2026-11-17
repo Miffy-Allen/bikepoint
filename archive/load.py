@@ -49,3 +49,5 @@ for file in file_location:
         os.remove(to_upload) # removing files in local after
     except Exception as e:
         print(f'Something went wrong. Error: {e}')
+
+#-------------------------------------
